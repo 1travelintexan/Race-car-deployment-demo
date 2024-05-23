@@ -9,8 +9,12 @@ body {
 #game-intro {
   padding: 20px 0px;
 }
-d #game-container {
+ol {
+  font-family: "Courier New", Courier, monospace;
+}
+#game-container {
   display: flex;
+
   width: 100vw;
   padding: 20px 0px;
   justify-content: center;
@@ -46,6 +50,10 @@ d #game-container {
 .game-intro p {
   font-size: 18px;
   font-family: "Verdana";
+}
+.hearts {
+  height: 50px;
+  margin: 10px;
 }
 
 .logo-img {
